@@ -1,18 +1,19 @@
 .navbar {
     background-color: black;
-    color: white;
+    
 }
+
 
 .jumbotron {
     text-align: center;
 }
 
-.btn { 
+.btn-primary { 
     background-color: #00CF00;
     border: none;
  } 
 
-.btn:hover {
+.btn-primary:hover {
     background-color: #009800;
 }
 
@@ -49,11 +50,37 @@
     color: blue;
 }
 
-a {
+.fas {
+    padding: 10px;
+    font-size: 40px;
+    color: black;
+}
+
+.fas:hover {
+    color: blue;
+}
+
+/* #pencil {
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+#moon {
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+#theme {
+    background-color: black;
+    border-color: black;
+} */
+
+/* a {
     color: white;
 }
 
 a:hover{
     color: gray;
-}
-
+} */
