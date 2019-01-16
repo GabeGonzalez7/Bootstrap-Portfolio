@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 </head>
-<body data-spy="scroll" data-target="#navbar">
+<body data-spy="scroll" data-target="#navbar" data-offset="300">
     <!-- NAV -->
     <nav id="navbar" class="navbar navbar-expand-lg navbar-dark sticky-top">
         <div class="container-fluid">
@@ -28,7 +28,7 @@
 
     <!-- JUMBOTRON -->
     <div class="jumbotron">
-            <img style="width: 25%"src="../Bootstrap-Portfolio/Images/Profile.jpg" alt="photo">
+            <img style="width: 25%" src="./Images/PFP.jpg" alt="photo">
         <h1 class="display-4">Gabriel Gonzalez UX/UI Portfolio</h1>
         <hr class="my-4">
         <p class="lead">Welcome to my Bootstrap Portfolio! This will provide you with my work that has been done at the UCLA UX/UI Bootcamp.</p>
@@ -37,11 +37,17 @@
     <!-- JUMBOTRON END -->
 
     <!-- WORK SECTION -->
+    <div id="mywork" class="jumbotron">
+        <h1>My Work</h1>
+    </div>
+
+
+
     <div class="container" item-width="100%" id="work">
-        <div class="row">
-            <div class="col">
-                <div class="card" style="width: 80%;">
-                        <img class="img-fluid" width="100%" src="Images/Airbnb Travel App Preview Mode   InVision.png"  alt="">
+        <div class="row ">
+            <div class="col-6">
+                <div class="card shadow-lg p-3 mb-5 rounded" style="width: 30rem; ">
+                        <img class="img-fluid mx-auto" width="40%" src="Images/Airbnb Travel App Preview Mode   InVision.png"  alt="">
                     <div class="card-body">
                         <h5 class="card-title">Airbnb Travel App</h5>
                         <p class="card-text">In this project, I designed a feature into the Airbnb mobile app based off a user's wants and needs. Using methods such as interviews, user journey maps, user flows, and more.</p>
@@ -49,8 +55,8 @@
                     </div>
                 </div>
             </div>       
-            <div class="col">
-                <div class="card" style="width: 80%;">
+            <div class="col-6">
+                <div class="card shadow-lg p-3 mb-5 rounded" style="width: 100%;">
                     <img width="100%" src="Images/Local Eyes.png" alt="">
                     <div class="card-body">
                         <h5 class="card-title">LocalEyes Travel App</h5>
@@ -64,8 +70,8 @@
     </div>
     <div class="container" item-width="100%">
         <div class="row">
-             <div class="col">
-                <div class="card" style="width: 80%;">
+             <div class="col-6">
+                <div class="card shadow-lg p-3 mb-5 rounded" style="width: 80%;">
                         <img width="100%" src="Images/Logo on Dark.png" alt="">
                     <div class="card-body">
                         <h5 class="card-title">NSA Web Redesign</h5>
@@ -74,13 +80,13 @@
                     </div>
                 </div>
             </div>       
-            <div class="col">
-                <div class="card" style="width: 80%;">
+            <div class="col-6">
+                <div class="card shadow-lg p-3 mb-5 rounded" style="width: 80%;">
                     <img width="100%" src="Images/Logo.png" alt="">
                     <div class="card-body">
                         <h5 class="card-title">AH&W Foundation Web Redesign</h5>
                            <p class="card-text">This project was also done with a group. It is a redesign of certain pages of the Animal Hope & Wellness Foundation website. We put both our UX and UI skills to work in this project.</p>
-                            <a href="https://docs.google.com/presentation/d/1U7G1BMTtd0IflEfx6bsd3PldXtUdhMJx_WAmx1vKmoQ/edit#slide=id.p" class="btn btn-primary">View Project</a>                       
+                            <a id="view" href="https://docs.google.com/presentation/d/1U7G1BMTtd0IflEfx6bsd3PldXtUdhMJx_WAmx1vKmoQ/edit#slide=id.p" class="btn btn-primary">View Project</a>                       
                 </div>
             </div>     
         </div>
@@ -90,7 +96,7 @@
 
 
     <!-- ABOUT ME -->
-    <div class="jumbotron bottom" id="about">
+    <div class="jumbotron" id="about">
         <h1>About Me</h1>
         <p>My name is Gabe Gonzalez and I am a young UX/UI designer coming straight out of highschool. My goal is to become an even more experienced designer than what I have become at the UCLA UX/UI Bootcamp. I love the idea of designing pretty much anything. Being able to put my imagination to work is what I want to do.</p>
         <hr>
@@ -99,16 +105,20 @@
         <hr>
         <h1>Contact</h1>
         <div class="container icons">
-                <a href="https://github.com/GabeGonzalez7">
+                <a id="github" href="https://github.com/GabeGonzalez7">
                         <i class="fab fa-github"></i>
+                        <p>Github</p>
                 </a>
                 <a href="https://www.linkedin.com/in/gabriel-gonzalez-981693167/">
                         <i class="fab fa-linkedin"></i>
+                        <p>LinkedIn</p>
                 </a>
-                <a href="" data-toggle="modal" data-target="#exampleModal">
+                <a id="envelope" href="" data-toggle="modal" data-target="#exampleModal">
                     <i class="fas fa-envelope"></i>
+                    <p>Email Me</p>
                 </a>
         </div>
+        
     </div>
     <!-- ABOUT ME END -->
 
