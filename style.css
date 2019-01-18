@@ -1,6 +1,7 @@
 .navbar {
     background-color: black;
-    
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -23,7 +24,6 @@
     border-radius: 20px;
     border-color: black;
     box-shadow: 0 10 2 black;
-    width: 80%;
 }
 
 .container {
@@ -34,11 +34,15 @@
 }
 
 .row {
+    display: flex;
+    flex: wrap;
     justify-content: center;
     align-content: center
 }
 
 .col-6 {
+    display: flex;
+    flex: wrap;
     justify-content: center;
 }
 
@@ -49,7 +53,7 @@
 .fab {
     padding: 10px;
     font-size: 40px;
-    color: black;
+    color: white;
 }
 
 .fab:hover {
@@ -59,7 +63,7 @@
 .fas {
     padding: 10px;
     font-size: 40px;
-    color: black;
+    color: white;
 }
 
 .fas:hover {
@@ -74,13 +78,49 @@
     margin-left: 30px;
 }
 
-h1, h5 {
+h1, h3, h5 {
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
 }
 
+h1 {
+    font-size: 50px
+}
+
 #mywork {
     background-color: white;
+}
+
+#line {
+    background-color: white;
+}
+
+#about {
+    color: white;
+    background-color: black;
+}
+
+@media (max-width: 768px) {
+    .card {
+        height: 70%;
+    }
+
+    .navbar-nav {
+        display: none;
+    }
+
+    .img-fluid {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    #profile {
+        width: 50%;
+    }
+
 }
 
 /* #pencil {
