@@ -16,7 +16,7 @@
             <img src="Images/GG Logo.png" alt="">
             <ul class="navbar-nav mr-auto col-6 offset-8">
                 <li class="nav-item">
-                    <a class="nav-link" href="#work">My Work</a>
+                    <a class="nav-link" href="#mywork">My Work</a>
                 </li>  
                 <li class="nav-item">
                     <a class="nav-link" href="#about">About</a>
@@ -29,24 +29,25 @@
 
     <!-- JUMBOTRON -->
     <div class="jumbotron">
-            <img id="profile" width="30%" src="./Images/PFP.jpg" alt="photo">
-        <h1 >Gabriel Gonzalez UX/UI Portfolio</h1>
-        <hr class="my-4">
-        <p class="lead">Welcome to my Bootstrap Portfolio! This will provide you with my work that has been done at the UCLA UX/UI Bootcamp.</p>
+            <img id="profile" width="20%" src="./Images/PFP.jpg" alt="photo">
+        <h1 class="tracking-in-expand">Gabriel Gonzalez UX/UI Portfolio</h1>
+        <hr class="my-4 tracking-in-expand">
+        <p class="lead tracking-in-expand">Welcome to my Portfolio! I am a beginning UX/UI designer, inspired by the gaming industry. This will provide the work that I have done at the UCLA UX/UI Bootcamp.</p>
     </div>
     <!-- JUMBOTRON END -->
 
     <!-- WORK SECTION -->
     <div id="mywork" class="jumbotron">
-        <h1>My Work</h1>
+        <h3 style="font-size: 40px; color: white;">My Work</h2>
+        <p class="lead" style="color: white;">Two of these projects are solo projects, while the other two are group projects. In each project, a different problem is solved based on the users goals and frustrations.</p>
     </div>
 
 
 
-    <div class="container" item-width="100%" id="work">
+    <div class="container" width="100%" id="work">
         <div class="row ">
             <div class="col-6">
-                <div class="card shadow-lg p-3 mb-5 rounded" style="width: 100%; ">
+                <div id="card" class="card shadow-lg p-3 mb-5 rounded" style="width: 100%; ">
                         <img class="img-fluid mx-auto" width="30%" src="Images/Airbnb Travel App Preview Mode   InVision.png"  alt="">
                     <div class="card-body">
                         <h5 class="card-title">Airbnb Travel App</h5>
@@ -56,7 +57,7 @@
                 </div>
             </div>       
             <div class="col-6">
-                <div class="card shadow-lg p-3 mb-5 rounded" width="100%" height="90%">
+                <div id="card" class="card shadow-lg p-3 mb-5 rounded" width="100%" height="90%">
                     <img class="img-fluid mx-auto" width="100%" src="Images/Local Eyes.png" alt="">
                     <div class="card-body">
                         <h5>LocalEyes Travel App</h5>
@@ -66,7 +67,7 @@
                 </div>
             </div> 
             <div class="col-6">
-                    <div class="card shadow-lg p-3 mb-5 rounded" style="width: 100%;">
+                    <div id="card" class="card shadow-lg p-3 mb-5 rounded" style="width: 100%;">
                             <img class="img-fluid mx-auto" width="80%" src="Images/Logo on Dark.png" alt="">
                         <div class="card-body">
                             <h5 class="card-title">NSA Web Redesign</h5>
@@ -76,7 +77,7 @@
                     </div>
                 </div>       
                 <div class="col-6">
-                    <div class="card shadow-lg p-3 mb-5 rounded" style="width: 100%;">
+                    <div id="card" class="card shadow-lg p-3 mb-5 rounded" style="width: 100%;">
                         <img class="img-fluid mx-auto" width="100%" src="Images/Logo.png" alt="">
                         <div class="card-body">
                             <h5 class="card-title">AH&W Foundation Web Redesign</h5>
@@ -98,7 +99,7 @@
     <!-- ABOUT ME -->
     <div class="jumbotron" id="about">
         <h1>About Me</h1>
-        <p>My name is Gabe Gonzalez and I am a young UX/UI designer coming straight out of highschool. My goal is to become an even more experienced designer than what I have become at the UCLA UX/UI Bootcamp. I love the idea of designing pretty much anything. Being able to put my imagination to work is what I want to do.</p>
+        <p>My name is Gabe Gonzalez and I am a young UX/UI designer coming straight out of highschool. My goal is to become an even more experienced designer than what I have become at the UCLA UX/UI Bootcamp. I love the idea of being able to do pretty much anything with designs. Being able to put my imagination to work is what I love to do.</p>
         <hr id="line">
         <h3>Area Of Focus</h3>
         <p>I'd definitely like to take what I've learned into the gaming industry. Gaming has been in my life for as long as I can remember and I'd want to be working in a field that I can relate to.</p>
@@ -123,7 +124,7 @@
     <!-- ABOUT ME END -->
 
     <!-- MODAL -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade swirl-in-fwd" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">

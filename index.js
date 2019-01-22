@@ -30,3 +30,14 @@
 // $("#moon").click(function () {
 //     $("#theme-stylesheet").attr("href", "https://bootswatch.com/4/superhero/bootstrap.css");
 // });
+var $card = $("#card")
+
+$("#card").hover(function() {
+   
+});
+
+var $modal = ("#exampleModal")
+
+$("#envelope").click(function() {
+    $modal.addClass("swirl-in-fwd")
+}
