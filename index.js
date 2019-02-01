@@ -40,4 +40,4 @@ var $modal = ("#exampleModal")
 
 $("#envelope").click(function() {
     $modal.addClass("swirl-in-fwd")
-}
+});
