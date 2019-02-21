@@ -11,13 +11,10 @@
 }
 
 .btn-primary { 
-    background-color: #00CF00;
+    
     border: none;
  }
 
-.btn-primary:hover {
-    background-color: #009800;
-}
 
 .card {
     border-style: none;
@@ -91,6 +88,8 @@ h1 {
 h2, h4, p {
     font-family: 'Lato', sans-serif;
 }
+
+
 
 #mywork {
     background-color: black;
@@ -278,9 +277,21 @@ a:hover{
 #text {
     width: 60%;
     text-align: center;
-    margin-left: 250px
+    margin-left: 260px;
+    font-size: 20px;
 }
 
 #resume {
     padding-left: 25px;
+}
+
+#texts {
+    width: 80%;
+    text-align: center;
+    margin-left: 110px;
+    font-size: 20px;
+}
+
+#mycontact {
+    font-size: 20px;
 }
