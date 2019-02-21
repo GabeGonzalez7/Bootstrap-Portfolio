@@ -1,5 +1,5 @@
 .navbar {
-    background-color: black;
+    background-color: #003CBF;
     display: flex;
     flex-wrap: wrap;
 }
@@ -7,7 +7,7 @@
 
 .jumbotron {
     text-align: center;
-    background-color: #BCBCBC;
+    background-color: #1565C0;
 }
 
 .btn-primary { 
@@ -92,7 +92,7 @@ h2, h4, p {
 
 
 #mywork {
-    background-color: black;
+    background-color: #003CBF;
     text-align: center;
 }
 
@@ -102,7 +102,7 @@ h2, h4, p {
 
 #about {
     color: white;
-    background-color:black;
+    background-color:#1565C0;
     text-align: center;
     justify-content: center;
 }
@@ -165,7 +165,7 @@ h2, h4, p {
 }
 
 #work {
-    background-color: grey;
+    background-color: #F7F7F7;
     width: 100%;
 }
 
@@ -283,6 +283,7 @@ a:hover{
 
 #resume {
     padding-left: 25px;
+    color: white;
 }
 
 #texts {
@@ -294,4 +295,20 @@ a:hover{
 
 #mycontact {
     font-size: 20px;
+}
+
+.tracking-in-expand {
+    color: white;
+}
+
+#linkedin, #git, #resumes {
+    color: white;
+}
+
+#linkedin:hover, #git:hover, #resumes:hover {
+    color: gray;
+}
+
+.my-4 {
+    background-color: white;
 }
