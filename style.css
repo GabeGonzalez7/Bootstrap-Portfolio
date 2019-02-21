@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #0D4600;
+    background-color: black;
     display: flex;
     flex-wrap: wrap;
 }
@@ -7,7 +7,7 @@
 
 .jumbotron {
     text-align: center;
-    background-color: #99E1B6;
+    background-color: #BCBCBC;
 }
 
 .btn-primary { 
@@ -93,7 +93,8 @@ h2, h4, p {
 }
 
 #mywork {
-    background-color: #0D4600;
+    background-color: black;
+    text-align: center;
 }
 
 #line {
@@ -102,7 +103,9 @@ h2, h4, p {
 
 #about {
     color: white;
-    background-color:#0D4600;
+    background-color:black;
+    text-align: center;
+    justify-content: center;
 }
 
 @media (max-width: 768px) {
@@ -163,7 +166,7 @@ h2, h4, p {
 }
 
 #work {
-    background-color: #99E1B6;
+    background-color: grey;
     width: 100%;
 }
 
@@ -271,3 +274,13 @@ h2, h4, p {
 a:hover{
     color: gray;
 } */
+
+#text {
+    width: 60%;
+    text-align: center;
+    margin-left: 250px
+}
+
+#resume {
+    padding-left: 25px;
+}
